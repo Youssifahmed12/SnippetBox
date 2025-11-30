@@ -37,7 +37,7 @@ func main() {
 		snippets: &models.SnippetModel{DB: db},
 	}
 
-	logger.Info("starting server", "addr", *addr)
+	logger.Info("starting server test test", "addr", *addr)
 
 	err = http.ListenAndServe(*addr, app.routes())
 	logger.Error(err.Error())
