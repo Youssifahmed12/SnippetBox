@@ -20,7 +20,7 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 	}
 
 	files := []string{
-		"./ui/html/pages/base.tmpl.html",
+		"./ui/html/base.tmpl.html",
 		"./ui/html/partials/nav.tmpl.html",
 		"./ui/html/pages/home.tmpl.html",
 	}
@@ -60,7 +60,7 @@ func (app *application) snippetView(w http.ResponseWriter, r *http.Request) {
 	}
 
 	files := []string{
-		"./ui/html/pages/base.tmpl.html",
+		"./ui/html/base.tmpl.html",
 		"./ui/html/partials/nav.tmpl.html",
 		"./ui/html/pages/view.tmpl.html",
 	}
